@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 
-void printAllCharacters(const char *buffer)
+void printAllCharacters(const char *string)
 {
 	int i=0;
-		while (buffer[i]!= '\0'){
-			printf("Character: %i\n", buffer[i]);
+		while (string[i]!= '\0'){
+			printf("Character: %i\n", string[i]);
 			i++;
 		}
 }
